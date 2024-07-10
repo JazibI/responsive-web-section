@@ -1,0 +1,33 @@
+.sm {
+  min-width: 75rem;
+}
+
+.box {
+  overflow: hidden;
+}
+
+.box_inner {
+  position: relative;
+  width: 50%;
+  padding: 1rem;
+  background-color: #eaeaea;
+  margin: 10% 0;
+}
+
+.box_inner::after {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 130%;
+  background-color: green;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  z-index: -1;
+  background-image: url("../img/testimonial-img-main.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=main.css.map */
