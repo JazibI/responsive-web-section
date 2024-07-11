@@ -19,6 +19,7 @@
   content: "";
   position: absolute;
   width: 150%;
+  min-width: 75rem;
   height: 130%;
   background-color: green;
   top: 50%;
